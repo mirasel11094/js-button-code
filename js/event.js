@@ -20,3 +20,14 @@ const yellowButton = document.getElementById('make-yellow');
             function makeYellow(){
                 document.body.style.backgroundColor = 'yellow';
             }
+//handal adEventlisenter
+const hotPinkButton = document.getElementById('make-hotpink');
+// console.log(hotPinkButton);
+hotPinkButton.addEventListener('click', function 
+(){
+    document.body.style.backgroundColor='hotpink';
+})
+//direct shortcard
+document.getElementById('light-blue').addEventListener('click', function () {
+    document.body.style.backgroundColor = 'lightblue';
+})
